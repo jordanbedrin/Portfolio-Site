@@ -27,7 +27,7 @@ class Landing extends Component {
                 </a>
 
                 {/* Github link*/}
-                <a href="http://google.com" rel="noopener noreferrer" target="_blank">
+                <a href="https://github.com/jordanbedrin" rel="noopener noreferrer" target="_blank">
                   <i className="fa fa-github-square" aria-hidden="true" />
                 </a>
 
