@@ -20,7 +20,10 @@ class Projects extends Component {
                 Food finder website created with React. Full list of technologies used includes: <br />HTML <br /> CSS<br /> Javascript <br /> ReactJS <br /> Github <br /> Google Maps API <br />
               </CardText>
               <CardActions border>
-                <Button colored>Github</Button>
+                <a href ="https://github.com/jordanbedrin/Food-Finder-Project" target="_blank">
+                    <Button colored>Github</Button>
+                </a>
+
                 <a href = "https://youtu.be/7vXjx0bFy-w" target="_blank">
                   <Button colored>Video Demo</Button>
                 </a>
@@ -121,7 +124,7 @@ class Projects extends Component {
                 - Abstract classes
 
               </CardText>
-            
+
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
               </CardMenu>
