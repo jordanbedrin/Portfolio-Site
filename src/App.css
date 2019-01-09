@@ -17,6 +17,10 @@
 
 }
 
+.cardButton{
+  margin-left: 40%;
+}
+
 
 .avatar-img {
   height: 150px;
@@ -72,4 +76,8 @@
 
 .projects-grid{
   display: flex;
+}
+
+.nav{
+
 }

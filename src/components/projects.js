@@ -14,10 +14,10 @@ class Projects extends Component {
 
         <div className="projects-grid">
           {/* Project 1!!! */ }
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png ) center / cover'}} >Food Finder</CardTitle>
-              <CardText>
-                Food finder website created with React. Full list of technologies used includes HTML, CSS, Javascript, and the Google Maps API.
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '50%'}}>
+            <CardTitle style={{color: '#fff', height: '300px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png ) center / cover'}} >Food Finder</CardTitle>
+              <CardText >
+                Food finder website created with React. Full list of technologies used includes: <br />HTML <br /> CSS<br /> Javascript <br /> ReactJS <br /> Github <br /> Google Maps API <br />
               </CardText>
               <CardActions border>
                 <Button colored>Github</Button>
@@ -53,10 +53,10 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1!!! */ }
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://cdn-images-1.medium.com/max/2000/1*6ahbWjp_g9hqhaTDSJOL1Q.png ) center / cover'}} >Trivia!</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '50%'}}>
+            <CardTitle style={{color: '#fff', height: '300px', background: 'url(https://cdn-images-1.medium.com/max/2000/1*6ahbWjp_g9hqhaTDSJOL1Q.png ) center / cover'}} >Trivia!</CardTitle>
               <CardText>
-                Simple trivia game created with Javascript.
+                Simple trivia game created with Javascript. This project was made to practice user input, functions, loops, and boolean logic.
               </CardText>
               <CardActions border>
               <a href="https://github.com/jordanbedrin/Javascript-Trivia-Game" target="_blank">
@@ -74,8 +74,8 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1!!! */ }
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: '#fff', height: '176px', background: 'url(https://rebornix.gallerycdn.vsassets.io/extensions/rebornix/ruby/0.20.0/1533645704022/Microsoft.VisualStudio.Services.Icons.Default ) center / cover'}} >Voter Simulation</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '50%'}}>
+            <CardTitle style={{color: '#fff', height: '300px', background: 'url(https://rebornix.gallerycdn.vsassets.io/extensions/rebornix/ruby/0.20.0/1533645704022/Microsoft.VisualStudio.Services.Icons.Default ) center / cover'}} >Voter Simulation</CardTitle>
               <CardText>
                 Voter simulation created with Ruby to practice concepts of object oriented programming.
               </CardText>
@@ -95,24 +95,33 @@ class Projects extends Component {
       return(
         <div className="projects-grid">
           {/* Project 1!!! */ }
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-            <CardTitle style={{color: 'black', height: '176px', background: 'url(https://sdtimes.com/wp-content/uploads/2018/03/cpppp-490x490.png ) center / cover'}} >School Projects</CardTitle>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '50%'}}>
+            <CardTitle style={{color: 'black', height: '300px', background: 'url(https://sdtimes.com/wp-content/uploads/2018/03/cpppp-490x490.png ) center / cover'}} >School Projects</CardTitle>
               <CardText>
+
                 While attending Florida State University, I have had to create many
-                C++ projects for my classes. Unfortunately, providing the code for these
+                C++ projects for my classes. Unfortunately, uploading the code for these
                 projects would violate university policy. Due to this barrier,
-                I  am providing a list of concepts covered in these projects.
-                C++ basics (loops, functions, arrays, pointers, etc.), objects, classes,
-                constructors, compilation/debugging, friend functions, operator overloading,
-                aggregation/composition, dynamic memory allocation (dynamic arrays, arrow/dot operators,
-                destructors, etc.), copy constructor, assignment operator, inheritance, polymorphism,
-                virtual functions, abstract classes, multiple inheritance.
+                I  am providing a list of concepts covered in these projects. I can provide code upon request.  <br /> <br />
+                - C++ basics (loops, functions, arrays, pointers, etc.)<br />
+                - Objects <br />
+                - Classes <br />
+                - Constructors <br />
+                - Compilation/Debugging <br />
+                - Friend functions <br />
+                - Operator overloading <br />
+                - Aggregation/Composition <br />
+                - Dynamic Memory Allocation (dynamic arrays, arrow/dot operators,
+                destructors, etc.)<br />
+                - Copy constructor <br />
+                - Assignment operator <br />
+                - Inheritance, Multiple inheritance <br />
+                - Polymorphism <br />
+                - Virtual functions <br />
+                - Abstract classes
+
               </CardText>
-              <CardActions border>
-              <a href="https://github.com/jordanbedrin/Javascript-Trivia-Game" target="_blank">
-                <Button colored>Github</Button>
-              </a>
-              </CardActions>
+            
               <CardMenu style={{color: '#fff'}}>
                 <IconButton name="share" />
               </CardMenu>
