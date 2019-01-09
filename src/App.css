@@ -38,6 +38,13 @@
   color: white;
 }
 
+.banner-text h2 {
+  font-size: 30px;
+  margin-top: -2%;
+  font-weight: bold;
+  color: white;
+}
+
 .banner-text hr {
   border-top: 5px dotted white;
   width: 50%;
