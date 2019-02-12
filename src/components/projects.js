@@ -14,7 +14,7 @@ class Projects extends Component {
 
         <div className="projects-grid">
           {/* Project 1!!! */ }
-          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '50%'}}>
+          <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '35%'}}>
             <CardTitle style={{color: '#fff', height: '300px', background: 'url(https://cdn-images-1.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png ) center / cover'}} >Food Finder</CardTitle>
               <CardText >
                 Food finder website created with React. Full list of technologies used includes: <br />HTML <br /> CSS<br /> Javascript <br /> ReactJS <br /> Github <br /> Google Maps API <br />
@@ -33,6 +33,26 @@ class Projects extends Component {
                 <IconButton name="share" />
               </CardMenu>
             </Card>
+
+            <Card shadow={5} style={{minWidth: '450', margin: 'auto', width: '35%'}}>
+              <CardTitle style={{color: 'black', height: '300px', background: 'url(http://globalpetfoodsnb.ca/gpfoods/wp-content/uploads/2016/10/roadtrip-feat.jpg ) center / cover'}} >Dog Party</CardTitle>
+                <CardText >
+                  React website that populates the page with random pictures of dogs at an interval chosen by the user. This project was created to gain practice with APIs, state, and props.  Full list of technologies used includes: <br />HTML <br /> CSS<br /> Javascript <br /> ReactJS <br /> Github <br /> Dog CEO API <br />
+                </CardText>
+                <CardActions border>
+                  <a href ="https://github.com/jordanbedrin/Dog-Party" target="_blank">
+                      <Button colored>Github</Button>
+                  </a>
+
+                  <a href = "https://dogparty.herokuapp.com/" target="_blank">
+                    <Button colored>Link to website</Button>
+                  </a>
+
+                </CardActions>
+                <CardMenu style={{color: '#fff'}}>
+                  <IconButton name="share" />
+                </CardMenu>
+              </Card>
 
 
             {/* Project 2!!! */ }
