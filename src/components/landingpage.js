@@ -18,7 +18,7 @@ class Landing extends Component {
 
               <hr/>
 
-              <p>HTML/CSS | JavaScript | C++ | React | Ruby on Rails | Git/Github | Microsoft Excel</p>
+              <p>HTML/CSS | JavaScript | C++ | Java | React | SQL | Git/Github | Tableau | Microsoft Excel</p>
 
               <div className = "social-links">
 
