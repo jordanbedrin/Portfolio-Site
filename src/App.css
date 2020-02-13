@@ -23,8 +23,9 @@
 
 
 .avatar-img {
+  border-radius: 50%;
   height: 150px;
-  padding-top: 5em;
+  margin-top: 5em;
 }
 
 .banner-text{
@@ -32,6 +33,7 @@
   opacity: .8;
   width: 75%;
   margin: auto;
+  margin-top: 2%;
   border-radius: 10px;
 
 }
